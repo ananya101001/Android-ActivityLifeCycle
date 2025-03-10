@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Title: Activity A -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity A"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Restart Counter -->
+    <TextView
+        android:id="@+id/restartText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onRestart Counter: 0"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button: Start Activity B -->
+    <Button
+        android:id="@+id/btnActivityB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Activity B"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button: Start Activity C -->
+    <Button
+        android:id="@+id/btnActivityC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Activity C"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button: Dialog -->
+    <Button
+        android:id="@+id/btnDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Thread Counter -->
+    <TextView
+        android:id="@+id/threadText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thread Counter: 0001"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Button: Close App -->
+    <Button
+        android:id="@+id/btnCloseApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Close App"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <!-- Custom AppCompat theme -->
+    <style name="Theme.Assignment_1_ActivityLifeCycle" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Alternatively, you could use Theme.Material.Light.NoActionBar if you prefer -->
+    <!-- <style name="Theme.Assignment_1_ActivityLifeCycle" parent="android:Theme.Material.Light.NoActionBar" /> -->
+</resources>
